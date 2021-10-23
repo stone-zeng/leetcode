@@ -40,6 +40,5 @@ fn main() {
         (")(())()((((()()(()())()()()(())(()(()))(", 28),
     ]
     .iter()
-    // .for_each(|(s, _)| println!("{}", Solution::longest_valid_parentheses(s.to_string())));
     .for_each(|&(s, res)| assert_eq!(Solution::longest_valid_parentheses(s.to_string()), res));
 }

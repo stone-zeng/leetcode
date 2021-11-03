@@ -1,3 +1,7 @@
+'''226. Invert Binary Tree
+https://leetcode.com/problems/invert-binary-tree/
+'''
+
 from typing import Optional
 
 # Definition for a binary tree node.

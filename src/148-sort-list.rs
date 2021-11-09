@@ -1,7 +1,7 @@
 // 148. Sort List
 // https://leetcode.com/problems/sort-list/
 
-// Definition for singly-linked list.
+/// Definition for singly-linked list.
 pub struct ListNode {
     pub val: i32,
     pub next: Option<Box<Self>>,

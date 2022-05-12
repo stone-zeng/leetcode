@@ -15,9 +15,11 @@ function isToeplitzMatrix(matrix: number[][]): boolean {
             if (matrix[j][n - 1 - i + j] !== first) return false;
     }
     return true;
-};
+}
 
-console.log(isToeplitzMatrix([[1,2,3,4],[5,1,2,3],[9,5,1,2]]))
-console.log(isToeplitzMatrix([[1]]))
-console.log(isToeplitzMatrix([[1, 2], [2, 2]]))
-console.log(isToeplitzMatrix([[1, 2], [2, 1]]))
+// prettier-ignore
+[
+    [[1, 2, 3, 4], [5, 1, 2, 3], [9, 5, 1, 2]],
+    [[1, 2], [2, 2]],
+    [[1, 2], [2, 1]],
+].forEach((matrix) => console.log(isToeplitzMatrix(matrix)));

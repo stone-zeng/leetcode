@@ -8,6 +8,6 @@ function tribonacci(n: number): number {
     const t = tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3);
     tribonacciData.push(t);
     return t;
-};
+}
 
 [...Array(37)].forEach((_, i) => console.log(i, tribonacci(i)));

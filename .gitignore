@@ -1,0 +1,5 @@
+.DS_Store
+
+src/a.out
+src/*.dSYM/
+src/temp/

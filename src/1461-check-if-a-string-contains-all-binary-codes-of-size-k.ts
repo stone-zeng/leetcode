@@ -11,7 +11,6 @@ function hasAllCodes(s: string, k: number): boolean {
     for (let i = 0; i < s.length - k; i++) {
         lastHash = rollingHash(lastHash, k, s[i], s[i + k]);
         hashSet.add(lastHash);
-        console.log(hashSet);
         if (hashSet.size === hashSetLen) {
             return true;
         }

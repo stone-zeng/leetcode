@@ -1,14 +1,7 @@
 // 86. Partition List
 // https://leetcode.com/problems/partition-list/
 
-class ListNode {
-    val: number;
-    next: ListNode | null;
-    constructor(val?: number, next?: ListNode | null) {
-        this.val = val === undefined ? 0 : val;
-        this.next = next === undefined ? null : next;
-    }
-}
+import { ListNode } from './leetcode_util';
 
 function newListNode(array: number[]): ListNode | null {
     if (array.length === 0) return null;

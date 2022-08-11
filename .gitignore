@@ -1,5 +1,6 @@
 .DS_Store
 
+.vscode/
 src/a.out
 src/*.dSYM/
 src/temp/

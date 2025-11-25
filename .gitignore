@@ -1,8 +1,6 @@
-.DS_Store
-
 .vscode/
 temp/
 trials/
 
-src/a.out
-src/*.dSYM/
+.DS_Store
+a.out
